@@ -5,6 +5,7 @@
     xmlns:local="using:InTune"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:InTune.Model"
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -61,11 +62,13 @@
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
-                                <Image Height="40"                                      
+                                <Image Source="{x:Bind IconFile}"
+                                       Height="40"                                      
                                        Width="40" 
                                        Margin="-10,10,0,10"
                                        />
-                                <TextBlock FontSize="18" 
+                                <TextBlock Text="{x:Bind Category}"
+                                           FontSize="18" 
                                            Margin="10,0,0,0" 
                                            VerticalAlignment="Center"
                                            />
@@ -95,8 +98,8 @@
                               IsItemClickEnabled="True"
                               ItemClick="SoundGridView_ItemClick" >
                         <GridView.ItemTemplate>
-                            <DataTemplate>
-                                <Image Name="MyImage" Height="120" Width="110"/>
+                            <DataTemplate x:DataType="data:Sound">
+                                <Image Name="MyImage" Height="120" Width="110" Source="{x:Bind ImageFile}"/>
                             </DataTemplate>
                         </GridView.ItemTemplate>
                     </GridView>

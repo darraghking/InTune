@@ -22,9 +22,32 @@ namespace InTune
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
+        private ObservableCollection<Sound> Sounds;
+        private List<String> Suggestions;
+        private List<MenuItem> MenuItems;
+
         public MainPage()
         {
             this.InitializeComponent();
+            Sounds = new ObservableCollection<Sound>();
+            SoundManager.GetAllSounds(Sounds);
+
+            MenuItems = new List<MenuItem>();
+            MenuItems.Add(new MenuItem { IconFile = "Assets/Icons/guitarIcon.png", Category = SoundCategory.guitarStrings });
+            MenuItems.Add(new MenuItem { IconFile = "Assets/Icons/guitarChordIcon.png", Category = SoundCategory.guitarChords });
+
+            butBackButton.Visibility = Visibility.Collapsed;
+        }
+
+        private void butCategoryButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void butBackButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
