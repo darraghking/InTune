@@ -27,7 +27,14 @@ You can drag and drop audio files onto the app too that saves into the users loc
 
 ## Resources
 The main resource I used for this project was [Learnonline](https://learnonline.gmit.ie/course/view.php?id=4195). 
-On our module page we learned the basics of C# and Xaml, such as the layout and how they are linked together and how to use add ons such as Geolocation or an Acceleromter etc. 
+On our module page we learned the basics of C# and Xaml, such as the layout and how they are linked together and how to use add ons such as Geolocation or an Accelerometer etc. 
+The other main resource I used for some of the functions such as data binding or just adding images was the [MicrosoftDeveloperNetwork](https://msdn.microsoft.com/en-us/library/gg680271(v=pandp.11).aspx).
+This was very helpful and clear on how to use C# and Xaml together as best as possible.
+I used the [MicrosoftDevCentre](https://docs.microsoft.com/en-us/windows/uwp/design/style/segoe-ui-symbol-font) to get the icons for the categories bar.
+
+The audio files and images I used were all from free to use websites, links are here:
+* https://archive.org/details/GuitarChord-A/3rd_String_G.aiff
+* https://freesound.org/people/oeusse/
 
 ## Final Thoughts
 Overall I'm happy with how this app turned out. If I had more time I would have added more chords and different tunings, but I'm happy with what I have on it so far. I would also like to have whatever file the user adds to local storage to be displayed on the app once it has been dropped. In the future, I would like to add a proper guitar tuner that uses the microphone from your machine. 
