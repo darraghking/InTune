@@ -8,7 +8,7 @@
     xmlns:data="using:InTune.Model"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="Beige">
         <!-- Navigation Bars -->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -102,7 +102,7 @@
                               ItemClick="SoundGridView_ItemClick" >
                         <GridView.ItemTemplate>
                             <DataTemplate x:DataType="data:Sound">
-                                <Image Name="MyImage" Height="120" Width="110" Source="{x:Bind ImageFile}"/>
+                                <Image Name="MyImage" Height="120" Width="115" Source="{x:Bind ImageFile}"/>
                             </DataTemplate>
                         </GridView.ItemTemplate>
                     </GridView>

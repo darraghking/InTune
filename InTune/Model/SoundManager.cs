@@ -19,6 +19,7 @@ namespace InTune.Model
             allSounds.ForEach(p => sounds.Add(p));
         }
 
+        // Passing in from mainpage
         public static void getSoundsByCategory(ObservableCollection<Sound> sounds, SoundCategory soundCategory)
         {
             var allSounds = getSounds();
@@ -26,6 +27,7 @@ namespace InTune.Model
             sounds.Clear();
             filteredSounds.ForEach(p => sounds.Add(p));
         }
+
 
         public static void GetSoundsByName(ObservableCollection<Sound> sounds, string name)
         {

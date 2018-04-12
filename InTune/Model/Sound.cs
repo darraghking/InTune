@@ -13,6 +13,7 @@ namespace InTune.Model
         public string AudioFile { get; set; }
         public string ImageFile { get; set; }
 
+        // Get sound and images from assets
         public Sound(string name, SoundCategory category)
         {
             Name = name;
