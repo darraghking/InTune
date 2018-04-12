@@ -7,13 +7,13 @@
 
 ## What is InTune?
 
-# How to Run
+## How to Run
 * Download or clone the git repository for this project
 * Unzip the folder
 * Install Visual Studio 2017 if you haven't already 
 * Open project in Visual Studio 2017 and select run
 
-###OR
+### OR
 
 Download the app from the Micrsoft store when it is available. I will post the link once it is done. 
 
