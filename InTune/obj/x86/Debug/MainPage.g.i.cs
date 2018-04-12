@@ -36,6 +36,11 @@ namespace InTune
         private global::Windows.UI.Xaml.Controls.Button butCategoryButton;
         private global::Windows.UI.Xaml.Controls.Button butBackButton;
         private global::Windows.UI.Xaml.Controls.AutoSuggestBox SearchAutoSuggestBox;
+        private global::Windows.UI.Xaml.Controls.SplitView mySplitView;
+        private global::Windows.UI.Xaml.Controls.ListView MenuItemsListView;
+        private global::Windows.UI.Xaml.Controls.MediaElement MyMediaElement;
+        private global::Windows.UI.Xaml.Controls.TextBlock CategoryTextBlock;
+        private global::Windows.UI.Xaml.Controls.GridView SoundGridView;
     }
 }
 

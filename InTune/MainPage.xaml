@@ -15,7 +15,7 @@
         </Grid.RowDefinitions>
 
         <RelativePanel>
-            <!-- Show Catrgory Button -->
+            <!-- Show Category Button -->
             <Button Name="butCategoryButton" 
                     RelativePanel.AlignLeftWithPanel="True" 
                     Click="butCategoryButton_Click" 
@@ -48,11 +48,60 @@
                             RelativePanel.AlignRightWithPanel="True" 
                             />
         </RelativePanel>
-        
-        <!-- Everything in the main body -->
-        <SplitView>
-            
-        </SplitView>
 
+        <SplitView Grid.Row="1" 
+                   Name="mySplitView" 
+                   DisplayMode="CompactOverlay" 
+                   CompactPaneLength="50"
+                   OpenPaneLength="200">
+            <SplitView.Pane>
+                <ListView Name="MenuItemsListView" 
+                          IsItemClickEnabled="True" 
+                          ItemClick="MenuItemsListView_ItemClick">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Height="40"                                      
+                                       Width="40" 
+                                       Margin="-10,10,0,10"
+                                       />
+                                <TextBlock FontSize="18" 
+                                           Margin="10,0,0,0" 
+                                           VerticalAlignment="Center"
+                                           />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <!-- Whats being displayed in the main section -->
+                <Grid Margin="20,0,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Allows you to play sound -->
+                    <MediaElement Name="MyMediaElement" AutoPlay="True" />
+
+                    <!-- Default text / header -->
+                    <TextBlock Name="CategoryTextBlock" Text="All Sounds" FontSize="24" Margin="0,0,0,5" />
+
+                    <!-- Under header -->
+                    <GridView Grid.Row="1" 
+                              Name="SoundGridView"
+                              SelectionMode="None"
+                              IsItemClickEnabled="True"
+                              ItemClick="SoundGridView_ItemClick" >
+                        <GridView.ItemTemplate>
+                            <DataTemplate>
+                                <Image Name="MyImage" Height="120" Width="110"/>
+                            </DataTemplate>
+                        </GridView.ItemTemplate>
+                    </GridView>
+                </Grid>
+            </SplitView.Content>
+        </SplitView>
     </Grid>
 </Page>
