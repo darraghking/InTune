@@ -7,6 +7,16 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:data="using:InTune.Model"
     mc:Ignorable="d">
+    <Page.Resources>
+        <Storyboard x:ConnectionId='2' x:Name="MediaPlayerStoryboard">
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetProperty="(MediaElement.Volume)" Storyboard.TargetName="MediaPlayer">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1.0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6" Value="1.0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:9" Value="0.0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Page.Resources>
 
     <Grid Background="Beige">
         <!-- Navigation Bars -->
@@ -17,7 +27,7 @@
 
         <RelativePanel>
             <!-- Show Category Button -->
-            <Button x:ConnectionId='11' Name="butCategoryButton" 
+            <Button x:ConnectionId='12' Name="butCategoryButton" 
                     RelativePanel.AlignLeftWithPanel="True" 
                                                     
                     FontFamily="Segoe MDL2 Assets"
@@ -28,7 +38,7 @@
                     />
             
             <!-- Back Button -->
-            <Button x:ConnectionId='12' Name="butBackButton" 
+            <Button x:ConnectionId='13' Name="butBackButton" 
                     RelativePanel.RightOf="butCategoryButton" 
                                                
                     FontFamily="Segoe MDL2 Assets"
@@ -39,7 +49,7 @@
                     />
             
             <!-- Search Bar -->
-            <AutoSuggestBox x:ConnectionId='13' Name="SearchAutoSuggestBox" 
+            <AutoSuggestBox x:ConnectionId='14' Name="SearchAutoSuggestBox" 
                             PlaceholderText="Search for Sound" 
                             Width="200"
                             QueryIcon="Find"
@@ -51,25 +61,25 @@
         </RelativePanel>
 
         <!-- Everything in the main body -->
-        <SplitView x:ConnectionId='2' Grid.Row="1" 
+        <SplitView x:ConnectionId='3' Grid.Row="1" 
                    Name="mySplitView" 
                    DisplayMode="CompactOverlay" 
                    CompactPaneLength="50"
                    OpenPaneLength="200">
             <SplitView.Pane>
-                <ListView x:ConnectionId='3' Name="MenuItemsListView" 
+                <ListView x:ConnectionId='4' Name="MenuItemsListView" 
                           IsItemClickEnabled="True" 
                                                            
                                                                  >
                     <ListView.ItemTemplate>
                         <DataTemplate                           >
-                            <StackPanel x:ConnectionId='4' Orientation="Horizontal">
-                                <Image x:ConnectionId='5'                           
+                            <StackPanel x:ConnectionId='5' Orientation="Horizontal">
+                                <Image x:ConnectionId='6'                           
                                        Height="40"                                      
                                        Width="40" 
                                        Margin="-10,10,0,10"
                                        />
-                                <TextBlock x:ConnectionId='6'                         
+                                <TextBlock x:ConnectionId='7'                         
                                            FontSize="18" 
                                            Margin="10,0,0,0" 
                                            VerticalAlignment="Center"
@@ -88,21 +98,26 @@
                     </Grid.RowDefinitions>
 
                     <!-- Allows you to play sound -->
-                    <MediaElement x:ConnectionId='7' Name="MyMediaElement" AutoPlay="True" />
+                    <MediaElement x:ConnectionId='8' Name="MyMediaElement" AutoPlay="True" />
 
                     <!-- Default text / header -->
-                    <TextBlock x:ConnectionId='8' Name="CategoryTextBlock" Text="All Sounds" FontSize="24" Margin="0,0,0,5" />
+                    <TextBlock x:ConnectionId='9' Name="CategoryTextBlock" Text="All Sounds" FontSize="24" Margin="0,0,0,5" />
 
                     <!-- Under header -->
-                    <GridView x:ConnectionId='9' Grid.Row="1" 
+                    <GridView x:ConnectionId='10' Grid.Row="1" 
                               Name="SoundGridView"
                               SelectionMode="None"
                               IsItemClickEnabled="True"
+                              
+                              AllowDrop="True"
+                                                       
+                                                               
+                              
                                                            
                                                                   >
                         <GridView.ItemTemplate>
                             <DataTemplate                        >
-                                <Image x:ConnectionId='10' Name="MyImage" Height="120" Width="115"                            />
+                                <Image x:ConnectionId='11' Name="MyImage" Height="120" Width="115"                            />
                             </DataTemplate>
                         </GridView.ItemTemplate>
                     </GridView>
