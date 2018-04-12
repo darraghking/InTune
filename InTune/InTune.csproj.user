@@ -10,5 +10,8 @@
     <SplashScreenSource>C:\Users\TheDarragh\Downloads\icons8-guitar-50.png</SplashScreenSource>
     <PackageLogoSource>C:\Users\TheDarragh\Downloads\icons8-guitar-50.png</PackageLogoSource>
     <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxPackageIsForStore>True</AppxPackageIsForStore>
+    <AppxBuildConfigurationSelection>x86|x64|arm</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>True</PackageOptionalProjectsInIdeBuilds>
   </PropertyGroup>
 </Project>
