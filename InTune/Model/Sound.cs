@@ -12,9 +12,18 @@ namespace InTune.Model
         public SoundCategory Category { get; set; }
         public string AudioFile { get; set; }
         public string ImageFile { get; set; }
-    }
 
-    // Populate categories
+
+        // Constructor with names and categories
+        public Sound(string name, SoundCategory category)
+        {
+            Name = name;
+            Category = category;
+            AudioFile = String.Format("/Assets/Audio/{0}/{1}.wav", category, name);
+            ImageFile = String.Format("/Assets/Images/{0}/{1}.png", category, name);
+        }
+
+    }
 
 
     public enum SoundCategory
