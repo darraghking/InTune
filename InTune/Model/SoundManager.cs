@@ -1,17 +1,17 @@
-﻿using System;
+﻿using InTune.Model;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// Gets instances of sounds
-namespace InTune.Model
+namespace InTuneApp.Model
 {
-    // Whats passing in from MainPage.xaml.cs
     // Gets instances of sound
     public class SoundManager
     {
+        // Whats used on mainpage.xaml.cs
         public static void GetAllSounds(ObservableCollection<Sound> sounds)
         {
             var allSounds = getSounds();
@@ -36,7 +36,6 @@ namespace InTune.Model
             filteredSounds.ForEach(p => sounds.Add(p));
         }
 
-        // Returns list of sounds
         private static List<Sound> getSounds()
         {
             var sounds = new List<Sound>();

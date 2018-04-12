@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace InTune.Model
 {
-    class Sound
+    public class Sound
     {
         public string Name { get; set; }
         public SoundCategory Category { get; set; }
         public string AudioFile { get; set; }
         public string ImageFile { get; set; }
 
-
-        // Constructor with names and categories
         public Sound(string name, SoundCategory category)
         {
             Name = name;
@@ -22,13 +20,10 @@ namespace InTune.Model
             AudioFile = String.Format("/Assets/Audio/{0}/{1}.wav", category, name);
             ImageFile = String.Format("/Assets/Images/{0}/{1}.png", category, name);
         }
-
     }
-
 
     public enum SoundCategory
     {
-        // Categories
         Strings,
         Chords
     }

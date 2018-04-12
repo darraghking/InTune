@@ -1,5 +1,8 @@
-﻿using System;
+﻿using InTune.Model;
+using InTuneApp.Model;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -34,8 +37,8 @@ namespace InTune
             SoundManager.GetAllSounds(Sounds);
 
             MenuItems = new List<MenuItem>();
-            MenuItems.Add(new MenuItem { IconFile = "Assets/Icons/guitarIcon.png", Category = SoundCategory.guitarStrings });
-            MenuItems.Add(new MenuItem { IconFile = "Assets/Icons/guitarChordIcon.png", Category = SoundCategory.guitarChords });
+            MenuItems.Add(new MenuItem { IconFile = "Assets/Icons/guitarIcon.png", Category = SoundCategory.Strings });
+            MenuItems.Add(new MenuItem { IconFile = "Assets/Icons/guitarChordIcon.png", Category = SoundCategory.Chords });
 
             butBackButton.Visibility = Visibility.Collapsed;
         }
