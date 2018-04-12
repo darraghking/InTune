@@ -26,7 +26,8 @@ There is a categories column on the left that lets you filter what category you 
 You can drag and drop audio files onto the app too that saves into the users local storage. A snippet of the file is played once you place it onto the app. 
 
 ## Resources
-The main resource I used for this project was [Learnonline](https://learnonline.gmit.ie/course/view.php?id=4195)
+The main resource I used for this project was [Learnonline](https://learnonline.gmit.ie/course/view.php?id=4195). 
+On our module page we learned the basics of C# and Xaml, such as the layout and how they are linked together and how to use add ons such as Geolocation or an Acceleromter etc. 
 
 ## Final Thoughts
 Overall I'm happy with how this app turned out. If I had more time I would have added more chords and different tunings, but I'm happy with what I have on it so far. I would also like to have whatever file the user adds to local storage to be displayed on the app once it has been dropped. In the future, I would like to add a proper guitar tuner that uses the microphone from your machine. 
