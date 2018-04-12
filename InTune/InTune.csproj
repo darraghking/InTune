@@ -17,7 +17,8 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
-    <PackageCertificateKeyFile>InTune_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>InTune_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>EDCC986727F6D73725A60C4F426E7AD16382CE39</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -98,22 +99,94 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\MenuItem.cs" />
+    <Compile Include="Model\Sound.cs" />
+    <Compile Include="Model\SoundManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="InTune_StoreKey.pfx" />
     <None Include="InTune_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Audio\Chords\AMajorChord.wav" />
+    <Content Include="Assets\Audio\Chords\AMinorChord.wav" />
+    <Content Include="Assets\Audio\Chords\CMajorChord.wav" />
+    <Content Include="Assets\Audio\Chords\DMajorChord.wav" />
+    <Content Include="Assets\Audio\Chords\EMajorChord.wav" />
+    <Content Include="Assets\Audio\Chords\EMinorChord.wav" />
+    <Content Include="Assets\Audio\Chords\GMajorChord.wav" />
+    <Content Include="Assets\Audio\Strings\1EString.wav" />
+    <Content Include="Assets\Audio\Strings\2BString.wav" />
+    <Content Include="Assets\Audio\Strings\3GString.wav" />
+    <Content Include="Assets\Audio\Strings\4DString.wav" />
+    <Content Include="Assets\Audio\Strings\5AString.wav" />
+    <Content Include="Assets\Audio\Strings\6EString.wav" />
+    <Content Include="Assets\Icons\guitarChordIcon.png" />
+    <Content Include="Assets\Icons\guitarIcon.png" />
+    <Content Include="Assets\Images\Chords\AMajorChord.png" />
+    <Content Include="Assets\Images\Chords\AMinorChord.png" />
+    <Content Include="Assets\Images\Chords\CMajorChord.png" />
+    <Content Include="Assets\Images\Chords\DMajorChord.png" />
+    <Content Include="Assets\Images\Chords\EMajorChord.png" />
+    <Content Include="Assets\Images\Chords\EMinorChord.png" />
+    <Content Include="Assets\Images\Chords\GMajorChord.png" />
+    <Content Include="Assets\Images\Strings\1EString.png" />
+    <Content Include="Assets\Images\Strings\2BString.png" />
+    <Content Include="Assets\Images\Strings\3GString.png" />
+    <Content Include="Assets\Images\Strings\4DString.png" />
+    <Content Include="Assets\Images\Strings\5AString.png" />
+    <Content Include="Assets\Images\Strings\6EString.png" />
+    <Content Include="Assets\LargeTile.scale-100.png" />
+    <Content Include="Assets\LargeTile.scale-125.png" />
+    <Content Include="Assets\LargeTile.scale-150.png" />
+    <Content Include="Assets\LargeTile.scale-200.png" />
+    <Content Include="Assets\LargeTile.scale-400.png" />
+    <Content Include="Assets\SmallTile.scale-100.png" />
+    <Content Include="Assets\SmallTile.scale-125.png" />
+    <Content Include="Assets\SmallTile.scale-150.png" />
+    <Content Include="Assets\SmallTile.scale-200.png" />
+    <Content Include="Assets\SmallTile.scale-400.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-125.png" />
+    <Content Include="Assets\SplashScreen.scale-150.png" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-32.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-32.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-125.png" />
+    <Content Include="Assets\StoreLogo.scale-150.png" />
+    <Content Include="Assets\StoreLogo.scale-200.png" />
+    <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
-    <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +204,7 @@
       <Version>6.0.6</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

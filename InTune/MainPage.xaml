@@ -50,6 +50,7 @@
                             />
         </RelativePanel>
 
+        <!-- Everything in the main body -->
         <SplitView Grid.Row="1" 
                    Name="mySplitView" 
                    DisplayMode="CompactOverlay" 
@@ -58,9 +59,10 @@
             <SplitView.Pane>
                 <ListView Name="MenuItemsListView" 
                           IsItemClickEnabled="True" 
+                          ItemsSource ="{x:Bind MenuItems}"
                           ItemClick="MenuItemsListView_ItemClick">
                     <ListView.ItemTemplate>
-                        <DataTemplate>
+                        <DataTemplate x:DataType="data:MenuItem">
                             <StackPanel Orientation="Horizontal">
                                 <Image Source="{x:Bind IconFile}"
                                        Height="40"                                      
@@ -96,6 +98,7 @@
                               Name="SoundGridView"
                               SelectionMode="None"
                               IsItemClickEnabled="True"
+                              ItemsSource="{x:Bind Sounds}"
                               ItemClick="SoundGridView_ItemClick" >
                         <GridView.ItemTemplate>
                             <DataTemplate x:DataType="data:Sound">

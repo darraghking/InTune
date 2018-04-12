@@ -25575,11 +25575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\thedarragh\\documents\\visual studio 2017\\Projects\\InTune\\InTune\\InTune.csproj",
+      "projectUniqueName": "C:\\Users\\TheDarragh\\documents\\visual studio 2017\\Projects\\InTune\\InTune\\InTune.csproj",
       "projectName": "InTune",
-      "projectPath": "c:\\users\\thedarragh\\documents\\visual studio 2017\\Projects\\InTune\\InTune\\InTune.csproj",
+      "projectPath": "C:\\Users\\TheDarragh\\documents\\visual studio 2017\\Projects\\InTune\\InTune\\InTune.csproj",
       "packagesPath": "C:\\Users\\TheDarragh\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\thedarragh\\documents\\visual studio 2017\\Projects\\InTune\\InTune\\obj\\",
+      "outputPath": "C:\\Users\\TheDarragh\\documents\\visual studio 2017\\Projects\\InTune\\InTune\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

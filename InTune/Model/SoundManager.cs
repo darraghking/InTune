@@ -1,12 +1,11 @@
-﻿using InTune.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InTuneApp.Model
+namespace InTune.Model
 {
     // Gets instances of sound
     public class SoundManager
@@ -16,7 +15,7 @@ namespace InTuneApp.Model
         {
             var allSounds = getSounds();
             sounds.Clear();
-            /* Lambda Expression */
+            // Lambda Expression 
             allSounds.ForEach(p => sounds.Add(p));
         }
 

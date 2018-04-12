@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InTune.Model
 {
-    class MenuItem
+    public class MenuItem
     {
         public string IconFile { get; set; }
         public SoundCategory Category { get; set; }
