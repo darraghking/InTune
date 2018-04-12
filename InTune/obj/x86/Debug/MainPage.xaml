@@ -114,7 +114,8 @@
                                                                
                               
                                                            
-                                                                  >
+                                                                  
+                              >
                         <GridView.ItemTemplate>
                             <DataTemplate                        >
                                 <Image x:ConnectionId='11' Name="MyImage" Height="120" Width="115"                            />

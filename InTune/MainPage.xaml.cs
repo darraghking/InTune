@@ -120,6 +120,7 @@ namespace InTune
 
                     StorageFolder folder = ApplicationData.Current.LocalFolder;
 
+                    // Only takes wav or mpeg files
                     if (contentType == "audio/wav" || contentType == "audio/mpeg")
                     {
                         StorageFile newFile = await storageFile.CopyAsync(folder, storageFile.Name, NameCollisionOption.GenerateUniqueName);            
@@ -135,9 +136,13 @@ namespace InTune
         {
             e.AcceptedOperation = Windows.ApplicationModel.DataTransfer.DataPackageOperation.Copy;
 
+            // While file is hovering over the app
             e.DragUIOverride.Caption = "Drop a file here to save";
+            // Make caption visible
             e.DragUIOverride.IsCaptionVisible = true;
+            // Make content visible
             e.DragUIOverride.IsContentVisible = true;
+            // If same file is downloaded more than once, add icon for amount of copies there is after it
             e.DragUIOverride.IsGlyphVisible = true;
         }
     }

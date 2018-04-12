@@ -7,6 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:data="using:InTune.Model"
     mc:Ignorable="d">
+    
+    <!-- To play files saved to local storage when added to main section -->
     <Page.Resources>
         <Storyboard x:Name="MediaPlayerStoryboard">
             <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetProperty="(MediaElement.Volume)" Storyboard.TargetName="MediaPlayer">

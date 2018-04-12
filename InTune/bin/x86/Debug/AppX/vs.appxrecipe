@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-12T19:35:40.973</Modified>
+      <Modified>2018-04-12T21:24:19.845</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\bin\x86\Debug\InTune.exe">
       <PackagePath>entrypoint\InTune.exe</PackagePath>
-      <Modified>2018-04-12T19:35:35.522</Modified>
+      <Modified>2018-04-12T21:24:07.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TheDarragh\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -851,11 +851,11 @@
     <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-12T19:35:40.240</Modified>
+      <Modified>2018-04-12T21:24:16.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\bin\x86\Debug\Core\InTune.exe">
       <PackagePath>InTune.exe</PackagePath>
-      <Modified>2018-04-12T19:35:40.962</Modified>
+      <Modified>2018-04-12T21:24:19.752</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
