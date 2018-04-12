@@ -8,6 +8,51 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <!-- Navigation Bars -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <RelativePanel>
+            <!-- Show Catrgory Button -->
+            <Button Name="butCategoryButton" 
+                    RelativePanel.AlignLeftWithPanel="True" 
+                    Click="butCategoryButton_Click" 
+                    FontFamily="Segoe MDL2 Assets"
+                    FontSize="20"
+                    Height="50"
+                    Width="50"
+                    Content="&#xE700;"
+                    />
+            
+            <!-- Back Button -->
+            <Button Name="butBackButton" 
+                    RelativePanel.RightOf="butCategoryButton" 
+                    Click="butBackButton_Click"
+                    FontFamily="Segoe MDL2 Assets"
+                    FontSize="20"
+                    Height="50"
+                    Width="50"
+                    Content="&#xE0A6;"
+                    />
+            
+            <!-- Search Bar -->
+            <AutoSuggestBox Name="SearchAutoSuggestBox" 
+                            PlaceholderText="Search for Sound" 
+                            Width="200"
+                            QueryIcon="Find"
+                            Margin="0,5,10,0"
+                            TextChanged="SearchAutoSuggestBox_TextChanged"
+                            QuerySubmitted="SearchAutoSuggestBox_QuerySubmitted"
+                            RelativePanel.AlignRightWithPanel="True" 
+                            />
+        </RelativePanel>
+        
+        <!-- Everything in the main body -->
+        <SplitView>
+            
+        </SplitView>
 
     </Grid>
 </Page>
