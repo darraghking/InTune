@@ -10,22 +10,22 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>478ebd1e-4295-4334-a8bf-3724aaa2a547</PackageIdentityName>
     <PackageIdentityPublisher>CN=8CD84645-43D0-4042-B205-F92FA74C9742</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\obj\x64\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\obj\x64\Release\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\bin\x64\Release\AppX</LayoutDir>
+    <LayoutDir>C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\bin\x64\Release\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\bin\x64\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\bin\x64\Release\InTune.exe">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\bin\x64\Release\InTune.exe">
       <PackagePath>InTune.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TheDarragh\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -364,283 +364,283 @@
     <AppxPackagedFile Include="C:\Users\TheDarragh\.nuget\packages\system.xml.xmlserializer\4.0.11\runtimes\aot\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Audio\Chords\AMajorChord.wav">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Audio\Chords\AMajorChord.wav">
       <PackagePath>Assets\Audio\Chords\AMajorChord.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Audio\Chords\AMinorChord.wav">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Audio\Chords\AMinorChord.wav">
       <PackagePath>Assets\Audio\Chords\AMinorChord.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Audio\Chords\CMajorChord.wav">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Audio\Chords\CMajorChord.wav">
       <PackagePath>Assets\Audio\Chords\CMajorChord.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Audio\Chords\DMajorChord.wav">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Audio\Chords\DMajorChord.wav">
       <PackagePath>Assets\Audio\Chords\DMajorChord.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Audio\Chords\EMajorChord.wav">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Audio\Chords\EMajorChord.wav">
       <PackagePath>Assets\Audio\Chords\EMajorChord.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Audio\Chords\EMinorChord.wav">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Audio\Chords\EMinorChord.wav">
       <PackagePath>Assets\Audio\Chords\EMinorChord.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Audio\Chords\GMajorChord.wav">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Audio\Chords\GMajorChord.wav">
       <PackagePath>Assets\Audio\Chords\GMajorChord.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Audio\Strings\1EString.wav">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Audio\Strings\1EString.wav">
       <PackagePath>Assets\Audio\Strings\1EString.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Audio\Strings\2BString.wav">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Audio\Strings\2BString.wav">
       <PackagePath>Assets\Audio\Strings\2BString.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Audio\Strings\3GString.wav">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Audio\Strings\3GString.wav">
       <PackagePath>Assets\Audio\Strings\3GString.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Audio\Strings\4DString.wav">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Audio\Strings\4DString.wav">
       <PackagePath>Assets\Audio\Strings\4DString.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Audio\Strings\5AString.wav">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Audio\Strings\5AString.wav">
       <PackagePath>Assets\Audio\Strings\5AString.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Audio\Strings\6EString.wav">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Audio\Strings\6EString.wav">
       <PackagePath>Assets\Audio\Strings\6EString.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Icons\guitarChordIcon.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Icons\guitarChordIcon.png">
       <PackagePath>Assets\Icons\guitarChordIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Icons\guitarIcon.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Icons\guitarIcon.png">
       <PackagePath>Assets\Icons\guitarIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Images\Chords\AMajorChord.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Images\Chords\AMajorChord.png">
       <PackagePath>Assets\Images\Chords\AMajorChord.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Images\Chords\AMinorChord.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Images\Chords\AMinorChord.png">
       <PackagePath>Assets\Images\Chords\AMinorChord.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Images\Chords\CMajorChord.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Images\Chords\CMajorChord.png">
       <PackagePath>Assets\Images\Chords\CMajorChord.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Images\Chords\DMajorChord.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Images\Chords\DMajorChord.png">
       <PackagePath>Assets\Images\Chords\DMajorChord.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Images\Chords\EMajorChord.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Images\Chords\EMajorChord.png">
       <PackagePath>Assets\Images\Chords\EMajorChord.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Images\Chords\EMinorChord.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Images\Chords\EMinorChord.png">
       <PackagePath>Assets\Images\Chords\EMinorChord.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Images\Chords\GMajorChord.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Images\Chords\GMajorChord.png">
       <PackagePath>Assets\Images\Chords\GMajorChord.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Images\Strings\1EString.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Images\Strings\1EString.png">
       <PackagePath>Assets\Images\Strings\1EString.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Images\Strings\2BString.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Images\Strings\2BString.png">
       <PackagePath>Assets\Images\Strings\2BString.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Images\Strings\3GString.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Images\Strings\3GString.png">
       <PackagePath>Assets\Images\Strings\3GString.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Images\Strings\4DString.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Images\Strings\4DString.png">
       <PackagePath>Assets\Images\Strings\4DString.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Images\Strings\5AString.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Images\Strings\5AString.png">
       <PackagePath>Assets\Images\Strings\5AString.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Images\Strings\6EString.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Images\Strings\6EString.png">
       <PackagePath>Assets\Images\Strings\6EString.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\bin\x64\Release\InTune.xr.xml">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\bin\x64\Release\InTune.xr.xml">
       <PackagePath>InTune.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\bin\x64\Release\resources.pri">
+    <AppxPackagedFile Include="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\bin\x64\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

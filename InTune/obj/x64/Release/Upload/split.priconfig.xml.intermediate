@@ -5,7 +5,7 @@
     <autoResourcePackage qualifier="Scale" />
     <autoResourcePackage qualifier="DXFeatureLevel" />
   </packaging>
-  <index root="\" startIndexAt="C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\bin\x64\Release\ilc\resources.pri">
+  <index root="\" startIndexAt="C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\bin\x64\Release\ilc\resources.pri">
     <default>
       <qualifier name="Language" value="en-US" />
       <qualifier name="Contrast" value="standard" />

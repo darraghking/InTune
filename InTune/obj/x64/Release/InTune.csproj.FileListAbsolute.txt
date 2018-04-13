@@ -552,3 +552,4 @@ C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\obj\x64\
 C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\obj\x64\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll
 C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\obj\x64\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll.ILTransformTask.repro
 C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\obj\x64\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.pdb
+C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\obj\x64\Release\InTune.csprojResolveAssemblyReference.cache

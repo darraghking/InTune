@@ -1,2 +1,2 @@
-MainPackage=C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\bin\x86\Release\InTune_1.1.0.0_x86.appx
-SymbolPackage=C:\Users\TheDarragh\documents\visual studio 2017\Projects\InTune\InTune\AppPackages\InTune_1.1.0.0_Test\InTune_1.1.0.0_x86.appxsym
+MainPackage=C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\bin\x86\Release\InTune_1.1.1.0_x86.appx
+SymbolPackage=C:\Users\TheDarragh\Documents\Visual Studio 2017\Projects\InTune\InTune\AppPackages\InTune_1.1.1.0_Test\InTune_1.1.1.0_x86.appxsym

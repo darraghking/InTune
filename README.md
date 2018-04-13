@@ -40,3 +40,16 @@ The audio files and images I used were all from free to use websites, links are 
 Overall I'm happy with how this app turned out. If I had more time I would have added more chords and different tunings, but I'm happy with what I have on it so far. I would also like to have whatever file the user adds to local storage to be displayed on the app once it has been dropped. In the future, I would like to add a proper guitar tuner that uses the microphone from your machine. 
 
 ### Thank you for reading!
+
+## Privacy Policy
+
+This app collects and stores no data from the user.
+This wwas built as a free app. Its use is provided at no cost and is intended for use as is.
+
+## Permission
+Requires no permissions
+
+ ## Changes to This Privacy Policy
+We may update our Privacy Policy from time to time.
+You are advised to review this page periodically for any changes.
+We will notify you of any changes by posting the new Privacy Policy on this page
